@@ -1,0 +1,177 @@
+/*Mobile Device*/
+@media only screen
+and (min-width: 375px)
+and (max-width: 667px)
+and (orientation: portrait) {
+}
+
+h2{
+ text-align: center;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+.connectLogo{
+    width: 60%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.nav_box{
+    height: 20%;
+    background-color: black;
+    display: block;
+    border: 10px black solid;
+}
+.navText1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-bottom: 5%;
+    margin-left: 9%;
+    margin-right: 8%;
+}
+.navText1:hover{
+    color: rgb(247, 105, 2);
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-size-adjust: 25%;
+    text-align: center;
+}
+.basicImage{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
+    width: 50%;
+    height: auto;
+
+}
+.storyDiv{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.stories{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90%;
+}
+
+.storyLink{
+  font-size: 150%;
+text-align: center;
+}
+
+.row{
+    width: 90%;
+    height:10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 25px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column1{
+    float: left;
+    width: 16.66%;
+    background-color: rgb(132, 189, 0);
+    color:rgb(132, 189, 0);
+  }
+
+
+  .column2{
+    float: left;
+    width: 16.66%;
+    background-color: rgb(196, 214, 0);
+    color:rgb(196, 214, 0);
+  }
+
+  .column3{
+    float: left;
+    width: 16.66%;
+    background-color: rgb(0, 156, 189);
+    color:rgb(0, 156, 189);
+  }
+
+  .column4{
+    float: left;
+    width: 16.66%;
+    background-color: rgb(125, 85, 199);
+    color:rgb(125, 85, 199);
+  }
+
+  .column5{
+    float: left;
+    width: 16.66%;
+    background-color: rgb(218, 41, 28);
+    color:rgb(218, 41, 28);
+  }
+
+  .column6{
+    float: left;
+    width: 16.66%;
+    background-color: rgb(246, 190, 0);
+    color:rgb(246, 190, 0);
+
+  }
+    .storyLink:link{
+        color: black;
+  }
+    .storyLink:visited{
+        color: rgb(124, 135, 142);
+  }
+    .storyLink:hover{
+        color:rgb(247, 105, 2)
+  }
+    .storyLink{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 70%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+  }
+  p{
+      font-family: Arial, Helvetica, sans-serif;
+      text-indent: 40px;
+  }
+  .indent{
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 70px;
+    }
+  .zotos{
+      width: 30%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+  .backButton{
+      color:white;
+      border: black 10px solid; 
+      background-color: black;
+      float: right;
+      margin-left: 70%;
+      margin-top: 30px;
+    
+  }
+  .backButton:hover{
+      color: rgb(247, 105, 2);
+  }
+
+  .subheading{
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(124, 135, 142);
+  }
